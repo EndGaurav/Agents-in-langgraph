@@ -1,0 +1,41 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+
+
+# VSCode settings
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Docker
+*.pid
+*.pid.lock
+docker-compose.override.yml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# LangGraph or LangChain checkpoints (optional if saving local state)
+checkpoints/
